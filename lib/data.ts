@@ -14,7 +14,7 @@ export const institutions: Institution[] = [
   },
   {
     id: 2,
-    name: 'Afara Caregiver & Allied Health College',
+    name: 'Afara Caregiver &  Allied Health College',
     description: 'Healthcare and caregiver training for a better tomorrow.',
     image: '/images/healthcare.jpg',
   },
