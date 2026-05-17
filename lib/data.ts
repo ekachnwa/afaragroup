@@ -22,7 +22,7 @@ export const institutions: Institution[] = [
     id: 3,
     name: 'Afara Skills & Vocational College',
     description: 'Technical and workplace skills for career excellence.',
-    image: '/images/vocational.jepg',
+    image: '/images/vocational.jpg',
   },
   {
     id: 4,

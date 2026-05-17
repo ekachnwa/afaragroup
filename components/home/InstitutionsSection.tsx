@@ -4,7 +4,7 @@ import { institutions } from '@/lib/data'
 
 export default function InstitutionsSection() {
   return (
-    <section className="pb-24">
+    <section className="pb-24 mb-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center">
           <p className="font-semibold uppercase tracking-[0.3em] text-amber-500">Our Institutions</p>
@@ -12,7 +12,7 @@ export default function InstitutionsSection() {
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {institutions.map((institution) => (
-            <div key={institution.id} className="rounded-2xl bg-white p-6 shadow-lg">
+            <div key={institution.id} className="rounded-2xl bg-white p-6 shadow-lg mb-32">
               <Image
                 src={institution.image}
                 alt={institution.name}
