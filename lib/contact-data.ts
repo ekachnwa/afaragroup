@@ -41,7 +41,8 @@ export const contactCards = [
     details: [
       'Monday - Friday',
       '8:00AM - 5:00PM',
-      'Saturday - 9:00AM - 2:00PM',
+      'Saturday',
+      '9:00AM - 2:00PM',
     ],
     footer: 'Sunday: Closed',
   },
