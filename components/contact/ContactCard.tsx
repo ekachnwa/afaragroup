@@ -6,7 +6,7 @@ export default function ContactCard({ item }: Props) {
   const Icon = item.icon
 
   return (
-    <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-xl">
+    <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-2 hover:shadow-xl">
       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-900">
         <Icon className="h-10 w-10 text-white" />
       </div>

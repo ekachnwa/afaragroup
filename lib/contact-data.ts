@@ -2,7 +2,6 @@ import {
   Phone,
   Mail,
   MapPin,
-  Globe,
   Clock3,
 } from 'lucide-react'
 
@@ -36,22 +35,13 @@ export const contactCards = [
     ],
     footer: 'Get directions →',
   },
-
-  {
-    title: 'Website',
-    icon: Globe,
-    details: ['www.afaragroup.com'],
-    footer: 'Explore our website →',
-  },
-
   {
     title: 'Office Hours',
     icon: Clock3,
     details: [
       'Monday - Friday',
       '8:00AM - 5:00PM',
-      'Saturday',
-      '9:00AM - 2:00PM',
+      'Saturday - 9:00AM - 2:00PM',
     ],
     footer: 'Sunday: Closed',
   },

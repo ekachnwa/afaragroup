@@ -17,7 +17,7 @@ export default function ContactInfoSection() {
         </div>
 
         {/* Grid */}
-        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-5">
+        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
           {contactCards.map((item) => (
             <ContactCard
               key={item.title}
