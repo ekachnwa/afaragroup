@@ -10,7 +10,7 @@ import CoursesGrid from './CoursesGrid'
 
 export default function CourseSearchSection() {
   return (
-    <section className="-mt-10 pb-24">
+    <section className="pb-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* Search Bar */}
         <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-xl">

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { ArrowRight, Headphones } from 'lucide-react'
+import { ArrowRight, Headphones, GraduationCap } from 'lucide-react'
 
 export default function CTASection() {
   return (
@@ -8,12 +8,8 @@ export default function CTASection() {
         <div className="grid gap-10 px-10 py-10 lg:grid-cols-[250px_1fr_auto] lg:items-center">
           {/* Image */}
           <div className="relative h-40">
-            <Image
-              src="/images/graduation-cap.png"
-              alt="Graduation Cap"
-              fill
-              className="object-contain"
-            />
+           
+            <GraduationCap className="h-40 w-40 text-amber-400" />
           </div>
 
           {/* Content */}

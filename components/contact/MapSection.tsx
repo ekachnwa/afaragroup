@@ -5,7 +5,7 @@ export default function MapSection() {
     <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
       <div className="relative h-[550px]">
         <Image
-          src="/images/map-placeholder.png"
+          src="/images/map.png"
           alt="Map"
           fill
           className="object-cover"

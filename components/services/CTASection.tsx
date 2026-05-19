@@ -32,10 +32,10 @@ export default function CTASection() {
 
           <div className="relative h-[300px]">
             <Image
-              src="/images/world-map.png"
+              src="/images/global-map.png"
               alt="World Map"
               fill
-              className="object-contain opacity-70"
+              className="object-fit opacity-70"
             />
           </div>
         </div>

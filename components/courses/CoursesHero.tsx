@@ -4,15 +4,7 @@ import { ArrowRight, Headphones } from 'lucide-react'
 export default function CoursesHero() {
   return (
     <section className="relative overflow-hidden bg-blue-950">
-      <div className="absolute inset-0">
-        <Image
-          src="/images/courses-hero.jpg"
-          alt="Courses Hero"
-          fill
-          className="object-cover opacity-40"
-        />
-      </div>
-
+      
       <div className="absolute inset-0 bg-gradient-to-r from-blue-950 via-blue-950/90 to-transparent" />
 
       <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-24 lg:grid-cols-2 lg:items-center">
@@ -46,6 +38,17 @@ export default function CoursesHero() {
               <Headphones className="h-5 w-5" />
               Talk to an Advisor
             </button>
+          </div>
+        </div>
+        {/* Right */}
+        <div className="relative">
+          <div className="relative h-[500px] overflow-hidden rounded-[32px] ">
+            <Image
+              src="/images/hero-about.png"
+              alt="About Hero"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
       </div>

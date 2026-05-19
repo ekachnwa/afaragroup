@@ -7,7 +7,7 @@ export default function StorySection() {
         {/* Image */}
         <div className="relative overflow-hidden rounded-[32px] shadow-2xl">
           <Image
-            src="/images/story-team.jpg"
+            src="/images/afara-workforce.png"
             alt="Our Team"
             width={900}
             height={700}

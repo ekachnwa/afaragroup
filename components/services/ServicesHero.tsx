@@ -3,15 +3,7 @@ import Image from 'next/image'
 export default function ServicesHero() {
   return (
     <section className="relative overflow-hidden bg-blue-950">
-      <div className="absolute inset-0">
-        <Image
-          src="/images/services-hero.jpg"
-          alt="Services Hero"
-          fill
-          className="object-cover opacity-40"
-        />
-      </div>
-
+      
       <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-24 lg:grid-cols-2 lg:items-center">
         <div>
           <p className="text-sm font-bold uppercase tracking-[0.3em] text-amber-400">
@@ -31,7 +23,19 @@ export default function ServicesHero() {
             the skills, knowledge, and opportunities needed to succeed.
           </p>
         </div>
+        {/* Right */}
+        <div className="relative">
+          <div className="relative h-[500px] overflow-hidden rounded-[32px] shadow-2xl">
+            <Image
+              src="/images/afara-workforce2.png"
+              alt="Service Hero"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
       </div>
+      
     </section>
   )
 }

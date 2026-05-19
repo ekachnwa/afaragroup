@@ -33,7 +33,7 @@ export default function AboutHero() {
         <div className="relative">
           <div className="relative h-[500px] overflow-hidden rounded-[32px] shadow-2xl">
             <Image
-              src="/images/about-hero.jpg"
+              src="/images/afara-building.png"
               alt="About Hero"
               fill
               className="object-cover"

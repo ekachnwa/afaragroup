@@ -15,7 +15,7 @@ export default function CoreServicesSection() {
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-8 xl:grid-cols-5">
+        <div className="mt-16 grid gap-8 xl:grid-cols-3">
           {services.map((service) => (
             <ServiceCard
               key={service.title}

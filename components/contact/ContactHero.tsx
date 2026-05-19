@@ -4,16 +4,6 @@ import { Mail, Phone } from 'lucide-react'
 export default function ContactHero() {
   return (
     <section className="relative overflow-hidden bg-blue-950">
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <Image
-          src="/images/contact-hero.jpg"
-          alt="Contact Hero"
-          fill
-          className="object-cover opacity-40"
-        />
-      </div>
-
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-950 via-blue-950/90 to-transparent" />
 
@@ -47,6 +37,17 @@ export default function ContactHero() {
               <Mail className="h-5 w-5" />
               Email Us
             </button>
+          </div>
+        </div>
+        {/* Right */}
+        <div className="relative">
+          <div className="relative h-[500px] overflow-hidden rounded-[32px] shadow-2xl">
+            <Image
+              src="/images/afara-building.png"
+              alt="Service Hero"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
       </div>

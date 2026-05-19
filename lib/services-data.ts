@@ -18,7 +18,7 @@ export const services = [
     title: 'Aviation Training Services',
     description:
       'Professional aviation training programs that prepare you for careers in the global aviation industry.',
-    image: '/images/aviation.jpg',
+    image: '/images/technology.webp',
     icon: Plane,
     color: 'text-blue-700',
     button: 'Explore Aviation Programs',
@@ -70,7 +70,7 @@ export const services = [
     title: 'Agricultural Training Services',
     description:
       'Modern agricultural education promoting sustainable farming.',
-    image: '/images/agriculture.jpg',
+    image: '/images/agriculture.webp',
     icon: Leaf,
     color: 'text-lime-600',
     button: 'Explore Agricultural Programs',
@@ -87,7 +87,7 @@ export const services = [
     title: 'Travel & Advisory Services',
     description:
       'Comprehensive travel, visa, and advisory services for global mobility.',
-    image: '/images/travel.jpg',
+    image: '/images/travel.webp',
     icon: Globe,
     color: 'text-indigo-600',
     button: 'Explore Travel Services',
