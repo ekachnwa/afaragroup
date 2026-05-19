@@ -58,70 +58,63 @@ export const institutions = [
 export const courses = [
   {
     title: 'Aviation Management',
-    image: '/images/aviation-course.jpg',
+    image: '/images/technology.webp',
     category: 'Aviation',
     duration: '6 Months',
   },
 
   {
     title: 'Caregiver Certification',
-    image: '/images/healthcare-course.jpg',
+    image: '/images/healthcare.jpg',
     category: 'Healthcare',
     duration: '3 Months',
   },
 
   {
-    title: 'Forklift Operation',
-    image: '/images/vocational-course.jpg',
+    title: 'Wood Work Operation',
+    image: '/images/vocational.jpg',
     category: 'Vocational',
     duration: '4 Weeks',
   },
 
   {
-    title: 'Catfish Farming',
-    image: '/images/agriculture-course.jpg',
-    category: 'Agriculture',
-    duration: '6 Weeks',
-  },
-
-  {
     title: 'Visa Advisory Services',
-    image: '/images/travel-course.jpg',
+    image: '/images/travel.webp',
     category: 'Travel & Tourism',
     duration: '2 Weeks',
   },
 
   {
     title: 'Cabin Crew AB-INITIO',
-    image: '/images/aviation-course.jpg',
+    image: '/images/hero-main.png',
     category: 'Aviation',
     duration: '3 Months',
   },
 
   {
     title: 'First Aid & Emergency Response',
-    image: '/images/healthcare-course.jpg',
+    image: '/images/healthcare.jpg',
     category: 'Healthcare',
     duration: '2 Weeks',
   },
 
   {
     title: 'Crane Operation',
-    image: '/images/vocational-course.jpg',
+    image: '/images/vocational.jpg',
     category: 'Vocational',
     duration: '4 Weeks',
   },
 
   {
     title: 'Piggery Farming',
-    image: '/images/agriculture-course.jpg',
+    image: '/images/agriculture.webp',
     category: 'Agriculture',
     duration: '6 Weeks',
   },
 
   {
     title: 'Flight Ticket Booking',
-    image: '/images/travel-course.jpg',
+    image: '/images/travel.webp',
     category: 'Travel & Tourism',
     duration: '1 Week',
   },

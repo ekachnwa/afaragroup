@@ -3,7 +3,7 @@ import CourseCard from './CourseCard'
 
 export default function CoursesGrid() {
   return (
-    <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-5">
+    <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
       {courses.map((course) => (
         <CourseCard
           key={course.title}
