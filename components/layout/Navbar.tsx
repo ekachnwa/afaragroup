@@ -58,7 +58,7 @@ const navLinks = [
 
   {
     label: 'Student Portal',
-    href: '/portal',
+    href: '/login',
   },
 
   {

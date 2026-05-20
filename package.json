@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
