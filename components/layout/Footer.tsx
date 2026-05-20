@@ -12,6 +12,7 @@ import {
   Mail,
   Phone,
 } from 'lucide-react'
+const currentYear = new Date().getFullYear()
 
 export default function Footer() {
   return (
@@ -111,7 +112,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-3">
               <Globe className="h-5 w-5 text-[#F4B400]" />
-              <span>www.afaragroup.com</span>
+              <span>www.afaragroup.com.ng</span>
             </div>
           </div>
         </div>
@@ -120,8 +121,8 @@ export default function Footer() {
       {/* Bottom Footer */}
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-5 text-sm text-slate-300 md:flex-row">
-          <p>
-            © 2024 Afara Group Limited. All Rights Reserved.
+          <p id="year"></p><p>
+            © {currentYear} Afara Group Limited. All Rights Reserved.
           </p>
 
           <div className="flex items-center gap-6">
