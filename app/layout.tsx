@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: 'Afara Group Limited',
   description: 'A Bridge to Global Possibilities',
+  icons: {
+    icon: '/images/logo.png',
+  },
 }
 
 export default function RootLayout({
