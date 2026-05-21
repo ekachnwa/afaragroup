@@ -38,4 +38,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           uploads: |
-            ./ => /home/fixdtekw/myapp/
+            ./ => /home/fixdtekw/afaragroup.com.ng/
