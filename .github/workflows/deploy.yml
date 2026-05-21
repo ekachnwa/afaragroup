@@ -39,3 +39,8 @@ jobs:
           port: ${{ secrets.PORT }}
           uploads: |
             ./ => /home/fixdtekw/afaragroup.com.ng/
+          exclude: |
+            node_modules
+            .next
+            .git
+            .github
