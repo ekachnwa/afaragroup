@@ -1,46 +1,71 @@
-name: Deploy Next.js to Namecheap
+# name: Deploy Next.js to Namecheap
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
 
-      - name: Install Dependencies
-        run: npm install
+#       - name: Install Dependencies
+#         run: npm install
 
-      - name: Build Next.js App
-        run: npm run build
+#       - name: Build Next.js App
+#         run: npm run build
 
-      - name: Create Deployment Archive
-        run: |
-          zip -r deploy.zip . \
-          -x "node_modules/*" \
-          -x ".git/*"
+#       - name: Create Deployment Archive
+#         run: |
+#           zip -r deploy.zip . \
+#           -x "node_modules/*" \
+#           -x ".git/*"
 
-      - name: Upload via SFTP
-        uses: Dylan700/sftp-upload-action@latest
-        with:
-          server: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          uploads: |
-            ./ => /home/fixdtekw/afaragroup.com.ng/
-          exclude: |
-            node_modules
-            .next
-            .git
-            .github
+#       - name: Upload via SFTP
+#         uses: Dylan700/sftp-upload-action@latest
+#         with:
+#           server: ${{ secrets.HOST }}
+#           username: ${{ secrets.USERNAME }}
+#           password: ${{ secrets.PASSWORD }}
+#           port: ${{ secrets.PORT }}
+#           uploads: |
+#             ./ => /home/fixdtekw/afaragroup.com.ng/
+#           exclude: |
+#             node_modules
+#             .next
+#             .git
+#             .github
+
+
+- name: Deploy Next.js to Namecheap
+  uses: Dylan700/sftp-upload-action@latest
+  with:
+    server: ${{ secrets.HOST }}
+    username: ${{ secrets.USERNAME }}
+    password: ${{ secrets.PASSWORD }}
+    port: ${{ secrets.PORT }}
+    uploads: |
+      ./app => /home/fixdtekw/afaragroup.com.ng/app
+      ./.next => /home/fixdtekw/afaragroup.com.ng/.next
+      ./components => /home/fixdtekw/afaragroup.com.ng/components
+      ./public => /home/fixdtekw/afaragroup.com.ng/public
+      ./lib => /home/fixdtekw/afaragroup.com.ng/lib
+      ./package.json => /home/fixdtekw/afaragroup.com.ng/package.json
+      ./package-lock.json => /home/fixdtekw/afaragroup.com.ng/package-lock.json
+      ./next.config.js => /home/fixdtekw/afaragroup.com.ng/next.config.js
+      ./postcss.config.js => /home/fixdtekw/afaragroup.com.ng/postcss.config.js
+      ./tailwind.config.js => /home/fixdtekw/afaragroup.com.ng/tailwind.config.js
+      ./tsconfig.json => /home/fixdtekw/afaragroup.com.ng/tsconfig.json
+    exclude: |
+      node_modules
+      .git
+      .github
