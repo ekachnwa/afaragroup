@@ -16,27 +16,27 @@ import {
 const institutionLinks = [
   {
     label: 'Afarawings Aero College',
-    href: '/institutions/aero-college',
+    href: '/aero-college',
   },
 
   {
     label: 'Afara Caregiver & Allied Health College',
-    href: '/institutions/health-college',
+    href: '/health-college',
   },
 
   {
     label: 'Afara Skills & Vocational College',
-    href: '/institutions/vocational-college',
+    href: '/vocational-college',
   },
 
   {
-    label: 'Afara AgriFarm Training',
-    href: '/institutions/agrifarm-training',
+    label: 'Afara AgriFarm College',
+    href: '/agrifarm-college',
   },
 
   {
     label: 'Afarawings Travels',
-    href: '/institutions/travels',
+    href: '/travels',
   },
 ]
 

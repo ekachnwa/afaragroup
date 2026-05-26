@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function HeroSection() {
   return (
@@ -21,9 +22,12 @@ export default function HeroSection() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <button className="rounded-xl bg-blue-900 px-7 py-4 font-semibold text-white shadow-lg transition hover:bg-blue-800">
-              Explore Our Programs
-            </button>
+            <Link
+              href="/courses">
+              <button className="rounded-xl bg-blue-900 px-7 py-4 font-semibold text-white shadow-lg transition hover:bg-blue-800">
+                Explore Our Programs
+              </button>
+            </Link>
 
             <button className="rounded-xl border border-blue-900 px-7 py-4 font-semibold text-blue-900 transition hover:bg-blue-50">
               Apply Now
