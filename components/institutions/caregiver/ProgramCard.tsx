@@ -29,7 +29,7 @@ export default function ProgramCard({
         />
       </div>
 
-      <div className="p-6">
+      <div className="p-6 -mt-12 z-10 relative">
         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#031B6E] text-white">
           <Icon size={22} />
         </div>

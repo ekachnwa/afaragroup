@@ -15,7 +15,7 @@ const programs = [
     title: 'Commercial Pilot License (CPL)',
     description:
       'Train to become a professional pilot with our comprehensive CPL program.',
-    image: '/images/afarawings/program-1.jpg',
+    image: '/images/programs/program-1.png',
     icon: Plane,
   },
 
@@ -23,7 +23,7 @@ const programs = [
     title: 'Aircraft Maintenance Engineering (AME)',
     description:
       'Gain the technical skills to maintain aircraft and ensure safety in the skies.',
-    image: '/images/afarawings/program-2.jpg',
+    image: '/images/programs/program-2.png',
     icon: Cog,
   },
 
@@ -31,7 +31,7 @@ const programs = [
     title: 'Cabin Crew Training',
     description:
       'Prepare for a rewarding career in cabin services and passenger safety.',
-    image: '/images/afarawings/program-3.jpg',
+    image: '/images/programs/program-3.png',
     icon: Users,
   },
 
@@ -39,7 +39,7 @@ const programs = [
     title: 'Aviation Management & Operations',
     description:
       'Develop the knowledge and leadership skills for aviation management roles.',
-    image: '/images/afarawings/program-4.jpg',
+    image: '/images/programs/program-4.png',
     icon: Briefcase,
   },
 
@@ -47,7 +47,7 @@ const programs = [
     title: 'Aviation Tourism & Travel Management',
     description:
       'Build a career in the dynamic world of travel and tourism management.',
-    image: '/images/afarawings/program-5.jpg',
+    image: '/images/programs/program-5.png',
     icon: Globe,
   },
 ]
@@ -81,8 +81,8 @@ export default function ProgramsSection() {
                 />
               </div>
 
-              <div className="p-6">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#031B6E] text-white">
+              <div className="p-6 -mt-12 z-10 relative">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#031B6E] text-white border-4 border-white">
                   <program.icon className="h-5 w-5" />
                 </div>
 

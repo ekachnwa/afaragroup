@@ -39,7 +39,7 @@ const features = [
 export default function AboutSection() {
   return (
     <section className="bg-white py-20">
-      <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-3">
         {/* IMAGE */}
         <div className="relative h-[500px] overflow-hidden rounded-3xl">
           <Image
@@ -51,7 +51,7 @@ export default function AboutSection() {
         </div>
 
         {/* CONTENT */}
-        <div>
+        <div className="lg:col-span-2">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#F6B400]">
             About Us
           </p>
@@ -68,7 +68,7 @@ export default function AboutSection() {
             professionals.
           </p>
 
-          <div className="mt-12 grid gap-8 sm:grid-cols-2">
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {features.map((feature) => (
               <div
                 key={feature.title}

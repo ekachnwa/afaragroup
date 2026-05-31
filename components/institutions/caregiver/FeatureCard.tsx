@@ -1,8 +1,8 @@
-import type { ReactElement } from 'react';
+import type { ComponentType } from 'react'
 
 // Local Feature type to avoid relying on absolute import paths
 interface Feature {
-  icon: (props: { size?: number }) => ReactElement;
+  icon: ComponentType<{ size?: number }>;
   title: string;
   description: string;
 }

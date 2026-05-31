@@ -45,7 +45,7 @@ export const programs = [
     title: "Caregiver Training Program",
     description:
       "Learn essential caregiving skills.",
-    image: "/images/caregiver/program-1.jpg",
+    image: "/images/programs/pg1.png",
     icon: UserRound,
   },
 
@@ -53,7 +53,7 @@ export const programs = [
     title: "Certified Nursing Assistant",
     description:
       "Patient care and nursing support.",
-    image: "/images/caregiver/program-2.jpg",
+    image: "/images/programs/pg2.png",
     icon: HeartPulse,
   },
 
@@ -61,7 +61,7 @@ export const programs = [
     title: "Phlebotomy Technician",
     description:
       "Blood collection and diagnostics.",
-    image: "/images/caregiver/program-3.jpg",
+    image: "/images/programs/pg3.png",
     icon: FlaskConical,
   },
 
@@ -69,7 +69,7 @@ export const programs = [
     title: "Medical Assistant",
     description:
       "Administrative and clinical support.",
-    image: "/images/caregiver/program-4.jpg",
+    image: "/images/programs/pg4.png",
     icon: Monitor,
   },
 
@@ -77,7 +77,7 @@ export const programs = [
     title: "Community Health Worker",
     description:
       "Support public health initiatives.",
-    image: "/images/caregiver/program-5.jpg",
+    image: "/images/programs/pg5.png",
     icon: Handshake,
   },
 ];
