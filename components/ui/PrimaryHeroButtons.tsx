@@ -1,20 +1,26 @@
 import Link from 'next/link'
+import { ReactNode } from 'react'
 
 type HeroButtonsProps = {
   primaryButtonText: string
   primaryButtonLink: string
+  className?: string
+  children?: ReactNode
 }
 
 export default function HeroButtons({
   primaryButtonText,
   primaryButtonLink,
+  className,
+  children,
 }: HeroButtonsProps) {
   return (
       <Link
         href={primaryButtonLink}
-        className="rounded-xl bg-blue-900 px-7 py-4 font-semibold text-white shadow-lg transition hover:bg-blue-800"
+        className={className}
       >
         {primaryButtonText}
+        {children}
       </Link>
   )
 }

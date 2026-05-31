@@ -11,7 +11,13 @@ export default function CoursesPage() {
     <main className="bg-[#F8FAFC]">
       <Navbar />
 
-      <CoursesHero />
+      <CoursesHero
+        title='Learn Today,'
+        highlightedText='Lead Tomorrow'
+        subtitle='Explore our wide range of professional courses designed
+            to build skills, advance careers, and create global
+            opportunities.'
+      />
 
       <CourseSearchSection />
 

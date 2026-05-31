@@ -12,7 +12,13 @@ export default function ServicesPage() {
     <main className="bg-white">
       <Navbar />
 
-      <ServicesHero />
+      <ServicesHero 
+      title='Empowering You with'
+      highlightedText='World-Class Solutions'
+      subtitle='Afara Group Limited provides a wide range of training and
+            professional services designed to equip individuals with
+            the skills, knowledge, and opportunities needed to succeed.'
+      />
 
        <CoreServicesSection />
 

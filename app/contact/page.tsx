@@ -11,7 +11,12 @@ export default function ContactPage() {
     <main className="bg-white">
       <Navbar />
 
-      <ContactHero />
+      <ContactHero
+      title='We’re Here to Help'
+      highlightedText='You Succeed'
+      subtitle='Have questions about our programs, admissions, or services?
+            Our team is ready to assist you. Reach out to us today!'
+      />
 
       <ContactInfoSection />
 

@@ -8,7 +8,7 @@
 export const institutions: Institution[] = [
   {
     id: 1,
-    name: 'Afara College of Technology',
+    name: 'Afara College',
     description: 'Hands-on technical education for modern industry careers.',
     image: '/images/technology.webp',
   },

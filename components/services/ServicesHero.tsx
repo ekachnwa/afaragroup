@@ -1,6 +1,12 @@
 import Image from 'next/image'
 
-export default function ServicesHero() {
+type Props = {
+  title: string;
+  highlightedText?: string
+  subtitle: string;
+};
+
+export default function ServicesHero({title, highlightedText, subtitle}) {
   return (
     <section className="relative overflow-hidden bg-blue-950">
       
@@ -11,16 +17,14 @@ export default function ServicesHero() {
           </p>
 
           <h1 className="mt-5 text-5xl font-black leading-tight text-white md:text-7xl">
-            Empowering You with
+            {title}
             <span className="block text-amber-400">
-              World-Class Solutions
+              {highlightedText}
             </span>
           </h1>
 
           <p className="mt-8 max-w-xl text-lg leading-8 text-slate-200">
-            Afara Group Limited provides a wide range of training and
-            professional services designed to equip individuals with
-            the skills, knowledge, and opportunities needed to succeed.
+            {subtitle}
           </p>
         </div>
         {/* Right */}

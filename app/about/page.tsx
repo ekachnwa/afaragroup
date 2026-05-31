@@ -13,7 +13,16 @@ export default function AboutPage() {
     <main className="bg-white">
       <Navbar />
 
-      <AboutHero />
+      <AboutHero 
+        title='A Bridge to'
+        highlightedText='Global'
+        trailingText='Possibilities'
+        subtitle='Afara Group Limited is a forward-thinking organization committed
+            to developing skilled professionals and connecting individuals
+            to global opportunities.'
+        Image='/images/afara-building.png'
+        ImageAlt='Afara Group Limited - A Bridge to Global Possibilities'
+      />
 
       <MissionVisionSection />
 

@@ -41,21 +41,25 @@ export default function HeroSection({ title, highlightedText, subtitle, trailing
                 <PrimaryHeroButtons
                     primaryButtonText={primaryButtonText}
                     primaryButtonLink={primaryButtonLink}
+                    className='rounded-xl bg-blue-900 px-7 py-4 font-semibold text-white shadow-lg transition hover:bg-blue-800'
                 />
                 <SecondaryHeroButtons
                     secondaryButtonText={secondaryButtonText}
                     secondaryButtonLink={secondaryButtonLink}
+                    className='rounded-xl border border-blue-900 px-7 py-4 font-semibold text-blue-900 transition hover:bg-blue-50'
                 />
             </div>
             
         </div>
-
+        <div className="relative">
+       <div className="relative h-[620px] overflow-hidden rounded-[32px] shadow-2xl"></div>
         {Image && (
           <HeroImage
             image={Image}
             alt={ImageAlt || "Afara Group Limited - A Bridge to Global Possibilities"}
           />
         )}
+        </div>
       </div>
     </section>
   )
