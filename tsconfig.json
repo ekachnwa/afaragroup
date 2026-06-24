@@ -35,7 +35,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, ".next/dev/types/app/(institutions)/agrifarm-college/page.tsx"  ],
   "exclude": [
     "node_modules"
   ]

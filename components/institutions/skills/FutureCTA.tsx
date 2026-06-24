@@ -1,21 +1,22 @@
-import Link from 'next/link'
+// components/skills/FutureCTA.tsx
 
-export default function CTASection() {
+import Link from "next/link";
+
+export default function FutureCTA() {
   return (
-    <section className="bg-[#031B6E] py-20">
+    <section className="pb-24">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-10 rounded-[32px] border border-white/10 bg-gradient-to-r from-[#031B6E] to-[#052A9C] px-10 py-14 lg:flex-row">
         <div>
           <h2 className="text-4xl font-bold text-white">
-            Ready to Take Off?
+            Ready to Build Your Future?
           </h2>
 
-          <p className="mt-4 max-w-2xl text-lg text-slate-200">
-            Join Afarawings Aero College and turn your passion for aviation
-            into a successful career.
+          <p className="mt-3 text-slate-50">
+            Gain practical skills for real opportunities.
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-4">
+        <div className="mt-6 flex gap-4 lg:mt-0">
           <Link
             href="/apply"
             className="rounded-xl bg-[#F6B400] px-8 py-4 font-semibold text-[#031B6E] transition hover:bg-yellow-400"
@@ -32,5 +33,5 @@ export default function CTASection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

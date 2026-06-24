@@ -1,13 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-// Local Program type to avoid resolving '@/types' in this component
-interface Program {
-  icon: any;
-  image: string;
-  title: string;
-  description: string;
-}
+import { Program } from "@/types";
 
 interface Props {
   program: Program;
@@ -20,7 +13,7 @@ export default function ProgramCard({
 
   return (
     <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-2 hover:shadow-xl">
-      <div className="relative h-56">
+      <div className="relative h-52">
         <Image
           src={program.image}
           alt={program.title}
@@ -44,7 +37,7 @@ export default function ProgramCard({
 
         <Link
           href="#"
-          className="mt-6 inline-flex font-semibold text-[#031B6E] hover:text-[#F6B400]"
+          className="mt-5 inline-flex font-semibold text-[#031B6E] hover:text-[#F6B400]"
         >
           Learn More →
         </Link>

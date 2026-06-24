@@ -49,13 +49,6 @@ export default function HeroSection({heading, title, highlightedText, tailingTex
         {/* RIGHT */}
         <div className="relative">
           <div className="relative h-[520px] w-full overflow-hidden rounded-[32px]">
-            {/* <Image
-              src="/images/hero-about.png"
-              alt="Afarawings Hero"
-              fill
-              className="object-cover"
-              priority
-            /> */}
             {image && alt && <img src={image} alt={alt} className="object-cover w-full h-full transition-transform duration-300 hover:scale-105" />}
           </div>
         </div>

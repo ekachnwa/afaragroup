@@ -17,7 +17,7 @@ export default function JourneyCTA() {
         <div className="mt-6 flex gap-4 lg:mt-0">
           <Link
             href="/apply"
-            className="rounded-xl bg-[#F6B400] px-8 py-4 font-semibold text-[#031B6E] transition hover:bg-yellow-400 px-8 py-4 font-semibold text-white"
+            className="rounded-xl bg-[#F6B400] px-8 py-4 font-semibold text-[#031B6E] transition hover:bg-yellow-400 px-8 py-4 font-semibold"
           >
             Apply Now
           </Link>

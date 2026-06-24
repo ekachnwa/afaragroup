@@ -40,7 +40,7 @@ export default function PortalBranding() {
         </div>
 
         {/* Student Image */}
-        <div className="relative mx-auto mt-10 h-[720px] w-[420px]">
+        <div className="relative mx-auto mt-10 h-[720px] w-[570px]">
           <Image
             src="/images/portal-login.png"
             alt="Student"

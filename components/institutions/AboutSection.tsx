@@ -69,10 +69,12 @@ export default function AboutSection() {
           </p>
 
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            
             {features.map((feature) => (
+              <div className='text-center'>
               <div
                 key={feature.title}
-                className="flex gap-5"
+                className="gap-5"
               >
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#031B6E] text-white">
                   <feature.icon className="h-6 w-6" />
@@ -88,7 +90,9 @@ export default function AboutSection() {
                   </p>
                 </div>
               </div>
+              </div>
             ))}
+            
           </div>
         </div>
       </div>
