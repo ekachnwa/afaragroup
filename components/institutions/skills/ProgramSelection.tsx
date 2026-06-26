@@ -1,5 +1,3 @@
-// components/skills/ProgramsSection.tsx
-
 import { programs } from "@/lib/skills-college-data";
 import ProgramCard from "./ProgramCard";
 

@@ -3,8 +3,9 @@ import Link from "next/link";
 import { Program } from "@/types";
 
 interface Props {
-  program: Program;
+  program: Program; 
 }
+
 
 export default function ProgramCard({
   program,

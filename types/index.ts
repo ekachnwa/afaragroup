@@ -1,7 +1,9 @@
+import { LucideIcon } from "lucide-react";
+
 export interface Program {
-  id: number
+  id?: number
   title: string
   description: string
   image: string
-  icon: React.ReactNode
+  icon: LucideIcon
 }
