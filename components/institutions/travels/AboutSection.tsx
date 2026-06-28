@@ -1,37 +1,39 @@
 import Image from 'next/image'
 import {
-  Plane, 
-  Building, 
-  Palmtree, 
-  IdCard, 
-  ShieldCheck
+  GraduationCap,
+  Users,
+  Plane,
+  Globe,
 } from 'lucide-react'
 
 const features = [
   {
-    id: 1,
-    title: "Flight Booking",
+    icon: GraduationCap,
+    title: 'Industry-Aligned Curriculum',
+    description:
+      'Courses designed in partnership with aviation industry leaders.',
+  },
+
+  {
+    icon: Users,
+    title: 'Experienced Instructors',
+    description:
+      'Learn from qualified professionals with real-world experience.',
+  },
+
+  {
     icon: Plane,
-    description: "We offer the best flight options at competitive prices.",
+    title: 'Modern Facilities',
+    description:
+      'State-of-the-art labs, simulators, and training equipment.',
   },
+
   {
-    id: 2,
-    title: "Hotel Reservations",
-    icon: Building,
-    description: "Find and book quality hotels that suit your comfort and budget.",
+    icon: Globe,
+    title: 'Global Opportunities',
+    description:
+      'We prepare you for careers anywhere in the world.',
   },
-  {
-    id: 3,
-    title: "Holiday Packages",
-    icon: Palmtree,
-    description: "Enjoy curated vacation packages for individuals, families and groups.",
-  },
-  {
-    id: 4,
-    title: "Visa Assistance",
-    icon: IdCard,
-    description: "Get expert guidance and support for your visa applications",
-  }
 ]
 
 export default function AboutSection() {
@@ -68,7 +70,7 @@ export default function AboutSection() {
               <div className='text-center'>
               <div
                 key={feature.title}
-                className="gap-5 flex flex-col items-center justify-center"
+                className="gap-5"
               >
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#031B6E] text-white">
                   <feature.icon className="h-6 w-6" />

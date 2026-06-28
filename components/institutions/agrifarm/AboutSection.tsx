@@ -28,8 +28,8 @@ export default function AboutSection() {
         <div className="grid gap-12 lg:grid-cols-2">
 
           <Image
-            src="/images/afara-building.png"
-            alt="Campus"
+            src="/images/travel-expirence.webp"
+            alt="Travel Experience"
             width={600}
             height={500}
             className="rounded-3xl"
@@ -54,7 +54,7 @@ export default function AboutSection() {
                 <div className='text-center'>
                   <div 
                     key={feature.title}
-                    className="gap-5"
+                    className="gap-5 flex flex-col items-center justify-center"
                   >
                     <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-[#031B6E] text-white">
                       <feature.icon className="h-6 w-6" />

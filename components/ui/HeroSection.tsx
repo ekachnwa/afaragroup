@@ -3,7 +3,7 @@ import SecondaryHeroButtons from './SecondaryHeroButtons'
 import HeroImage from './HeroImage'
 
 type Props = {
-  title: string;
+  title: React.ReactNode;
   highlightedText?: string
   subtitle: string;
   trailingText?: string;
