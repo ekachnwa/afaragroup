@@ -43,8 +43,8 @@ export default function AboutSection() {
         {/* IMAGE */}
         <div className="relative h-[500px] overflow-hidden rounded-3xl">
           <Image
-            src="/images/afara-building.png"
-            alt="Campus"
+            src="/images/travel-expirence.webp"
+            alt="Travel Experience"
             fill
             className="object-cover"
           />

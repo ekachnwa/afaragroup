@@ -28,8 +28,8 @@ export default function AboutSection() {
         <div className="grid gap-12 lg:grid-cols-2">
 
           <Image
-            src="/images/travel-expirence.webp"
-            alt="Travel Experience"
+            src="/images/afara-building.png"
+            alt="Campus"
             width={600}
             height={500}
             className="rounded-3xl"
